@@ -1,5 +1,5 @@
 #include <unistd.h>
-/* *
+/**
 * main - prints a standard error
 * Return: Always 1 (Success)
 */
