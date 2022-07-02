@@ -1,0 +1,18 @@
+#include <stdio.h>
+/**
+* main - Prints the numbers from 0 to 9
+*
+* Return: Always 0 (success)
+*/
+int main(void)
+{
+	char c;
+
+	for (c = '0'; c <= '9'; c++)
+		
+		putchar(c);
+
+	putcahr('\n');
+
+	return (0);
+}
