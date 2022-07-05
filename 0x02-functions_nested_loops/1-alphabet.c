@@ -2,7 +2,7 @@
 * File: 1-aphabet.c
 *
 * Auth: muhandasa
-* */
+*/
 
 #include "main.h"
 
