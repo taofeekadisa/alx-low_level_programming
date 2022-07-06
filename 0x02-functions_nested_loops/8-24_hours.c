@@ -1,6 +1,6 @@
 /*
-* File: 8-24_hours.c
-* Auth: muhandasa
+*File: 8-24_hours.c
+*Auth: muhandasa
 */
 
 #include "main.h"
