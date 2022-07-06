@@ -17,7 +17,7 @@ int main(void)
 		k = i + j;
 		i = j;
 		j = k;
-		print("%lu, ", k);
+		printf("%lu, ", k);
 	}
 	m = i % 1000;
 	i = i / 1000;
