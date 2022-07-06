@@ -8,7 +8,7 @@
 * print_times_table - prints times table
 * @n: times table to use
 * return:void
-* */
+*/
 
 void print_times_table(int n)
 {
@@ -39,7 +39,7 @@ void print_times_table(int n)
 			else
 			{
 				_putchar('0' + rep / 100);
-				_putchar('0' + (rep -100) /10);
+				_putchar('0' + (rep - 100) /10);
 				_putchar('0' + rep % 10);
 			}
 			if (b < n)
