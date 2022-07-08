@@ -15,7 +15,7 @@
 
 void print_traingle(int size)
 {
-	int hash, index;
+	int i, j;
 
 	if (size <= 0)
 	{
@@ -23,17 +23,16 @@ void print_traingle(int size)
 	}
 	else
 	{
-
-		for (hash = 0; hash < size; hash++)
+		for (i = 0; i < size; i++)
 		{
-
-			for (index = 0; index < hash; index++)
-				_putchar('32');
-
-			if (index == 0)
-				_putchar(35);
+			for (j = 0; j < i; j++)
+			{
+				_putchar(32);
+			}
+			for (j = 0)
+				_putchar(35)
 		}
-
 		_putchar('\n');
+
 	}
 }
