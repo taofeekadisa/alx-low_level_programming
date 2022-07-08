@@ -6,10 +6,8 @@
 #include "main.h"
 
 /**
-* print_traingle - entry point
-*
-* Description: Prints diagonal
-* @size: size of the traingle
+* print_triangle - Prints a triangle, using the character #.
+* @size: The size of the traingle.
 * Return: void
 */
 
