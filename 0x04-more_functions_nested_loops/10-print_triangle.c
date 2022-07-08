@@ -15,24 +15,22 @@
 
 void print_traingle(int size)
 {
-	int i, j;
+	int height, base;
 
 	if (size <= 0)
-	{
 		_putchar('\n');
-	}
 	else
 	{
-		for (i = 0; i < size; i++)
+		for (height = 1; height <= size; ++height)
 		{
-			for (j = 0; j < i; j++)
+			for (base = 1; base <= size; ++base)
 			{
-				_putchar(32);
+				if ((height + base) <= size)
+					_putchar(' ');
+				else
+					_putchar('#');
 			}
-			for (j = 0)
-				_putchar(35)
+			_putchar('\n');
 		}
-		_putchar('\n');
-
 	}
 }
