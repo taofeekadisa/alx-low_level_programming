@@ -17,22 +17,23 @@ void print_traingle(int size)
 {
 	int hash, index;
 
-	if (size > 0)
+	if (size <= 0)
 	{
-		for (hash = 1; hash <= size; hash++)
+		_putchar('\n');
+	}
+	else
+	{
+
+		for (hash = 0; hash < size; hash++)
 		{
-			for (index = size - hash; index > 0; index--)
-				_putchar(' ');
 
 			for (index = 0; index < hash; index++)
-				_putchar('#');
+				_putchar('32');
 
-			if (hash == size)
-				continue;
-
-			_putchar('\n');
+			if (index == 0)
+				_putchar(35);
 		}
-	}
 
-	_putchar('\n');
+		_putchar('\n');
+	}
 }
