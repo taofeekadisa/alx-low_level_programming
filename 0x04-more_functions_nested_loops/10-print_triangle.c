@@ -15,25 +15,24 @@
 
 void print_traingle(int size)
 {
-	int row, hashes, spaces;
+	int hash, index;
 
-	if (size <= 0)
+	if (size > 0)
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (row = 1; row <= size; row++)
+		for (hash = 1; hash <= size; hash++)
 		{
-			for (spaces = size - row; spaces >= 1; spaces--)
-			{
+			for (index = size - hash; index > 0; index--)
 				_putchar(' ');
-			}
-			for (hashes = 1; hashes <= row; hashes++)
-			{
+
+			for (index = 0; index < hash; index++)
 				_putchar('#');
-			}
+
+			if (hash == size)
+				continue;
+
 			_putchar('\n');
 		}
 	}
+
+	_putchar('\n');
 }
