@@ -11,9 +11,10 @@
 int main(void)
 {
 	int x, sum, y;
-	int pass[100]
+	int pass[100];
 
-		sum = 0;
+	sum = 0;
+
 	srand(time(NULL));
 	for (x = 0; x < 100; x++)
 	{
