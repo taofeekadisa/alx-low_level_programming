@@ -23,7 +23,7 @@ char *leet(char *s)
 				s[a] = n[b];
 			}
 
-			b++
+			b++;
 		}
 
 		a++;
