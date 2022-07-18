@@ -7,7 +7,7 @@
  * @n: bytes of the memory area pointed to by @s
  *
  * @s: with the constant byte @b
- * 
+ *
  * @b: memory area pointer
  *
  * Return: a pointer to the memory area @s
