@@ -6,8 +6,6 @@
  * @width: width of array one
  * @height: height of array two
  *
- * Return: Height of array two
- *
  * Return: If width or height is 0 or negative, return NULL
  */
 int **alloc_grid(int width, int height)
