@@ -71,14 +71,14 @@ void print_all(const char * const format, ...)
 
 	va_start(valist, format);
 	i = 0;
-	while (fromat && format[i])
+	while (format && format[i])
 	{
 		j = 0;
 		while (p[j].t != NULL)
 		{
 			if (*(p[j].t) == format[i])
 			{
-				print("%s", separator);
+				printf("%s", separator);
 				p[j].f(valist);
 				separator = ",";
 				break;
